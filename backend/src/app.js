@@ -3,8 +3,8 @@ const express = require("express");
 const dotenv = require('dotenv'); // Require dotenv
 // Load environment variables from a.env file into process.env object: https://www.npmjs
 
-console.log(mongodbURL); // Output: mongodb://127.0.0.1:27017/noterapp
-console.log(jwtSecret)
+// console.log(mongodbURL); // Output: mongodb://127.0.0.1:27017/noterapp
+// console.log(jwtSecret)
 
 require("./db/mongoose"); // Assuming mongoose.js is in the 'db' folder
 

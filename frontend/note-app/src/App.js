@@ -9,6 +9,9 @@ import DeletePage from "./pages/DeletePage";
 
 
 function App() {
+  const token = localStorage.getItem("token");
+
+  
   return (
     <div className="App">
       <BrowserRouter>
